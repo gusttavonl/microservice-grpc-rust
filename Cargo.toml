@@ -20,6 +20,7 @@ tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
 protoc = "2.28.0"
 diesel = { version = "2.1.0", features = ["postgres"] }
 dotenvy = "0.15"
+diesel_cli = "2.1.0"
 
 [build-dependencies]
 tonic-build = "0.9"
